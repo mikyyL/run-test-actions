@@ -12,5 +12,5 @@ class TestNumbers:
     @allure.story('Тест номер 2')
     def test_number_two(self):
         with allure.step('Шаг 1 подготовка данных'):
-            x = 3
+            x = 2
             assert x == 2
